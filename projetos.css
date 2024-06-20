@@ -1,0 +1,100 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#capivara {
+    width: 150px;
+    height: 150px;
+    transition: width 0.5s, height 0.5s;
+    border-radius: 100px;
+    border: 2px solid;
+
+}
+
+#capivara:hover {
+    width: 250px;
+    height: 250px;
+}
+
+#imc {
+    width: 150px;
+    height: 150px;
+    transition: width 0.5s, height 0.5s;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+#imc:hover {
+    width: 250px;
+    height: 250px;
+}
+
+#viagem {
+    width: 150px;
+    height: 150px;
+    transition: width 0.5s, height 0.5s;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+#viagem:hover {
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header {
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #797979;
+}
+#barraDeNavegacao{
+    list-style: none;
+}
+
+#barraDeNavegacao{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    padding: 15px 15px;
+    align-items: center;
+}
+
+#barraDeNavegacao a{
+    text-decoration: none;
+    color:black
+}
+
+nav li a:hover {
+    background-color: #797979;
+}
